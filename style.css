@@ -1,0 +1,169 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Background */
+header {
+  background-color: #131921; /* Amazon dark blue */
+  color: white;
+}
+
+/* Top Header */
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.top-header img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.top-header p {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+/* Search Bar */
+.top-header input[type="search"] {
+  width: 300px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.top-header button {
+  background-color: #febd69;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.top-header button img {
+  height: 20px;
+  width: 20px;
+}
+
+/* Navigation Bar */
+.navigation-bar {
+  background-color: #232f3e; /* Amazon gray */
+  padding: 10px 20px;
+}
+
+.navigation-bar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-bar li {
+  margin-right: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navigation-bar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-bar li:hover,
+.navigation-bar a:hover {
+  color: #febd69;
+}
+a{
+    color:white;
+    margin-left: 0%;
+    text-decoration-line: none;
+}
+.cartimage{
+    margin-right: 0% ;
+}
+.center-iamge{
+    position: absolute;
+    width: 25%;
+}
+.account-icon{
+    margin-left:20px;
+    color: black;
+    display: inline;
+}
+.center-iamge {
+  position: absolute;
+  top: 35%;
+  left: 18%;
+  background-color: white;
+  padding: 15px;
+  
+  width: 19%;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.center-iamge2 {
+  position: absolute;
+  top: 35%;
+  left: 39%;
+  background-color: white;
+  padding: 15px;
+  height: 395px;
+  width: 19%;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.center-image-container{
+  margin-left: 20vh;
+}
+.center-image3{
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  background-color: white;
+  padding: 15px;
+  height: 150px;
+  width: 15%;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.center-iamge4{
+  position: absolute;
+  top: 52%;
+  left: 59%;
+  padding: 15px;
+  height: 213px;
+  width: 15%;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+
+}
+.primebanner{
+  margin-left: 160px;
+  margin-bottom: 25;
+  height:420px;
+  width: 750px;
+}
+.container {
+  position: relative;
+  top: 25px;
+  bottom: 10px;
+  left: 1100px;
+  height:420px;
+  width: 350px;
+  display: inline-block;
+  
+}
+.containerimage1{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.containerimage2{
+  position: absolute;
+  top: 20px;
+  left: 190px;
+}
+
+
+
